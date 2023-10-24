@@ -20,7 +20,7 @@ vector<int> superiorElements(vector<int>&a) {
 }
 
 int min(){
-    vector<int> a={22,12,24,6,8,9,1};
+    vector<int> a={22,12,6,8,9,1};
     vector<int>ans =superiorElements(a);
     for(int i=0;i<ans.size();i++){
         cout<<ans[i]<<endl;

@@ -45,6 +45,6 @@ int main(){
             cout<<result[i][j]<<" ";
 
         }
-        cout<<" ";
+        cout<<" "endl;
     }
 }

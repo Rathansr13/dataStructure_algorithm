@@ -33,7 +33,7 @@ vector<vector<int>> triplet(int n, vector<int> &arr)
 int main()
 {
     vector<int> arr={1,8,102,2,3,104,102,103};
-    int  result=triplet(arr.size(),arr);
+    vector<vector<int>> result=triplet(arr.size(),arr);
     cout<<result<<endl;
     
 }
